@@ -2,7 +2,7 @@ import { Container, Box, Heading, Text, VStack, HStack, Divider } from "@chakra-
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="background"> {/* Added bg prop */}
       <VStack spacing={8} align="stretch">
         {/* Header */}
         <Box bg="brand.700" color="white" p={4} borderRadius="md">
